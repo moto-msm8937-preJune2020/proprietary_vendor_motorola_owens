@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/lib/libtpa.so:system/lib/libtpa.so \
     vendor/motorola/perry/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/motorola/perry/proprietary/lib/libwbxmlparser.so:system/lib/libwbxmlparser.so \
-    vendor/motorola/perry/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:system/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/perry/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/motorola/perry/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
@@ -63,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/perry/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
-    vendor/motorola/perry/proprietary/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc:system/vendor/etc/init/motorola.hardware.camera.provider@2.4-service_delayed.rc \
     vendor/motorola/perry/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/motorola/perry/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/perry/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -124,7 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video_3a.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_postproc.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_postproc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so 
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot_3a.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot_3a.so \
@@ -158,11 +156,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libllvd_sw_tnr.so:system/vendor/lib/libllvd_sw_tnr.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmbs.so:system/vendor/lib/libmbs.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libmm-omxcore.so:system/vendor/lib/libmm-omxcore.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/motorola/perry/proprietary/vendor/lib/libmmcamera2_dcrf.so:system/vendor/lib/libmmcamera2_dcrf.so \
